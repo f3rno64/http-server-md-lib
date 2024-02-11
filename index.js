@@ -1,24 +1,24 @@
 const lib = require('./lib')
 
 /**
- * @external serve-markdown-it
- * @see https://github.com/f3rno/serve-markdown-it
+ * @external http-server-md
+ * @see https://github.com/f3rno64/http-server-md
  */
 
 /**
- * @external serve-markdown-it-template-default
- * @see https://github.com/f3rno/serve-markdown-it-template-default
+ * @external http-server-md-template-default
+ * @see https://github.com/f3rno64/http-server-md-template-default
  */
 
 /**
- * Shared utility library for the {@link external:serve-markdown-it} utility
+ * Shared utility library for the {@link external:http-server-md} utility
  * and supported templates, plugins, and other extensions. Provides general
  * utilities (@see {@link requireDynamicModule}), and methods to render
- * template (@see {@link external:serve-markdown-it-template-default}) assets
+ * template (@see {@link external:http-server-md-template-default}) assets
  * and SCSS stylesheets.
  *
- * @see {@link external:serve-markdown-it}
- * @module serve-markdown-it-lib
+ * @see {@link external:http-server-md}
+ * @module http-server-md-lib
  * @license MIT
  */
 

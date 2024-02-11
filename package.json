@@ -1,9 +1,9 @@
 {
-  "name": "serve-markdown-it-lib",
+  "name": "http-server-md-lib",
   "version": "1.0.5",
   "license": "MIT",
-  "description": "Shared utility library for serve-markdown-it",
-  "author": "Cris Mihalache <me@f3rno.com>",
+  "description": "Shared utility library for http-server-md",
+  "author": "Cris Mihalache <f3rno64@gmail.com>",
   "main": "index.js",
   "engines": {
     "node": ">=11.14.0"
@@ -18,18 +18,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/f3rno/serve-markdown-it-lib.git"
+    "url": "https://github.com/f3rno64/http-server-md-lib.git"
   },
-  "homepage": "https://github.com/f3rno/serve-markdown-it-lib",
+  "homepage": "https://github.com/f3rno64/http-server-md-lib",
   "bugs": {
-    "url": "https://github.com/f3rno/serve-markdown-it-lib/issues"
+    "url": "https://github.com/f3rno64/http-server-md-lib/issues"
   },
   "keywords": [
     "utility",
-    "sermit",
-    "sermit-config",
-    "sermit-template",
-    "serve-markdown-it"
+    "http-server-md",
+    "http-server-md-template"
   ],
   "scripts": {
     "docs": "rm -rf DOCUMENTATION.md && ./node_modules/.bin/jsdoc2md -f index.js 'lib/**/*.js' > DOCUMENTATION.md",

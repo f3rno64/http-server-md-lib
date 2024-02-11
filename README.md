@@ -1,16 +1,16 @@
-# serve-markdown-it-lib
+# http-server-md-lib
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-Shared utility library for **[sermit](https://github.com/f3rno/serve-markdown-it)**
+Shared utility library for **[sermit](https://github.com/f3rno64/http-server-md)**
 
 ### [Installation](#installation)
-![npm badge](https://nodei.co/npm/serve-markdown-it-lib.png?downloads=true&downloadRank=true&stars=true)
+![npm badge](https://nodei.co/npm/http-server-md-lib.png?downloads=true&downloadRank=true&stars=true)
 
 ```bash
-yarn add serve-markdown-it-lib
+yarn add http-server-md-lib
 ```
 
 ### [Developing](#developing)
@@ -47,11 +47,11 @@ Distributed under the **MIT** license. See [LICENSE.md](LICENSE.md) for more inf
 ## Modules
 
 <dl>
-<dt><a href="#module_serve-markdown-it-lib">serve-markdown-it-lib</a></dt>
-<dd><p>Shared utility library for the <a href="https://github.com/f3rno/serve-markdown-it">serve-markdown-it</a> utility
+<dt><a href="#module_http-server-md-lib">http-server-md-lib</a></dt>
+<dd><p>Shared utility library for the <a href="https://github.com/f3rno64/http-server-md">http-server-md</a> utility
 and supported templates, plugins, and other extensions. Provides general
 utilities (@see <a href="requireDynamicModule">requireDynamicModule</a>), and methods to render
-template (@see <a href="https://github.com/f3rno/serve-markdown-it-template-default">serve-markdown-it-template-default</a>) assets
+template (@see <a href="https://github.com/f3rno64/http-server-md-template-default">http-server-md-template-default</a>) assets
 and SCSS stylesheets.</p>
 </dd>
 </dl>
@@ -122,16 +122,16 @@ of throwing an error.</p>
 <dd></dd>
 </dl>
 
-<a name="module_serve-markdown-it-lib"></a>
+<a name="module_http-server-md-lib"></a>
 
-## serve-markdown-it-lib
-Shared utility library for the [serve-markdown-it](https://github.com/f3rno/serve-markdown-it) utility
+## http-server-md-lib
+Shared utility library for the [http-server-md](https://github.com/f3rno64/http-server-md) utility
 and supported templates, plugins, and other extensions. Provides general
 utilities (@see [requireDynamicModule](requireDynamicModule)), and methods to render
-template (@see [serve-markdown-it-template-default](https://github.com/f3rno/serve-markdown-it-template-default)) assets
+template (@see [http-server-md-template-default](https://github.com/f3rno64/http-server-md-template-default)) assets
 and SCSS stylesheets.
 
-**See**: [serve-markdown-it](https://github.com/f3rno/serve-markdown-it)  
+**See**: [http-server-md](https://github.com/f3rno64/http-server-md)  
 **License**: MIT  
 <a name="PathDoesNotExistError"></a>
 
@@ -439,7 +439,7 @@ Logs successful module resolution.
 
 **Example** *(log module resolution)*  
 ```js
-logModuleResolved('serve-markdown-it', process.cwd(), { color: false })
+logModuleResolved('http-server-md', process.cwd(), { color: false })
 ```
 <a name="resolveGlobal"></a>
 
@@ -459,7 +459,7 @@ failure instead of throwing.
 
 **Example**  
 ```js
-const modulePath = resolveGlobal('serve-markdown-it')
+const modulePath = resolveGlobal('http-server-md')
 ```
 <a name="requireModule"></a>
 
@@ -504,7 +504,7 @@ of throwing an error.
 
 **Example** *(resolve from cwd)*  
 ```js
-const modulePath = resolveModule('serve-markdown-it-lib', [process.cwd()])
+const modulePath = resolveModule('http-server-md-lib', [process.cwd()])
 
 if (_isEmpty(modulePath)) {
   return
@@ -555,8 +555,8 @@ const serveAsset = async (ctx, url, config) => {
 
 
 <!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/serve-markdown-it-lib.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/serve-markdown-it-lib
-[npm-downloads]: https://img.shields.io/npm/dm/serve-markdown-it-lib.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/f3rno/serve-markdown-it-lib/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/f3rno/serve-markdown-it-lib
+[npm-image]: https://img.shields.io/npm/v/http-server-md-lib.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/http-server-md-lib
+[npm-downloads]: https://img.shields.io/npm/dm/http-server-md-lib.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/f3rno64/http-server-md-lib/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/f3rno64/http-server-md-lib
