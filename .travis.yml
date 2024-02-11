@@ -1,11 +1,11 @@
 sudo: false
 os: linux
-cache: yarn
+cache: pnpm
 language: node_js
 node_js:
-  - 14
+  - 16
 
 install:
-  - yarn
+  - pnpm
 script:
-  - yarn test
+  - pnpm test
