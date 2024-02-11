@@ -10,16 +10,16 @@ Shared utility library for **[sermit](https://github.com/f3rno64/http-server-md)
 ![npm badge](https://nodei.co/npm/http-server-md-lib.png?downloads=true&downloadRank=true&stars=true)
 
 ```bash
-yarn add http-server-md-lib
+pnpm add http-server-md-lib
 ```
 
 ### [Developing](#developing)
 
 ```bash
-yarn gen-readme // update README.md
-yarn docs // update DOCUMENTATION.md
-yarn test // lint & mocha
-yarn update-deps // bump all deps
+pnpm gen-readme // update README.md
+pnpm docs // update DOCUMENTATION.md
+pnpm test // lint & mocha
+pnpm update-deps // bump all deps
 ```
 
 ### [Release History](#release_history)
@@ -171,15 +171,7 @@ Create a new [PathDoesNotExistError](#PathDoesNotExistError) object.
 
 **Example**  
 ```js
-const err = new PathDoesNotExistError('/some/path')
-
-console.log(`non-existent path: ${err.path}`)
-console.log(`non-existent path parts: ${err.parts}`)
-console.log(`non-existent path dir name: ${err.dirname}`)
-console.log(`non-existent path base name: ${err.basename}`)
-console.log(`non-existent path extension: ${err.extname}`)
-
-console.error(err.stack)
+throw new PathDoesNotExist('/some/path')
 ```
 <a name="PathDoesNotExistError+path"></a>
 
@@ -213,7 +205,7 @@ Get the original FS error object.
 <a name="PathDoesNotExistError.message"></a>
 
 ### PathDoesNotExistError.message(path, [fsError], [color]) ⇒ <code>string</code>
-Generate a messsage for [PathDoesNotExistError](#PathDoesNotExistError).
+Generate a message for [PathDoesNotExistError](#PathDoesNotExistError).
 
 **Kind**: static method of [<code>PathDoesNotExistError</code>](#PathDoesNotExistError)  
 **Returns**: <code>string</code> - message - error message  

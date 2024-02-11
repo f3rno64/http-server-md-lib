@@ -87,6 +87,7 @@
     "jsdoc-to-markdown": "^6.0.1",
     "mocha": "^8.0.1",
     "nyc": "^15.1.0",
+    "remark": "^15.0.1",
     "standard-version": "^8.0.0",
     "updates": "^10.2.15"
   },
