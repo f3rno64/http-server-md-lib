@@ -93,7 +93,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn test && yarn docs && yarn gen-readme && git add README.md DOCUMENTATION.md"
+      "pre-commit": "pnpm test && pnpm docs && pnpm gen-readme && git add README.md DOCUMENTATION.md"
     }
   }
 }
