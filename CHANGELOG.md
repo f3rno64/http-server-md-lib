@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/f3rno64/http-server-md-lib/compare/v1.0.5...v1.1.0) (2024-02-11)
+
+
+### Features
+
+* bump manifest engine min node version to v16 ([dd731d8](https://github.com/f3rno64/http-server-md-lib/commit/dd731d85ace1e1695b56dbd11713f5ff6e1d0af2))
+
 ### [1.0.5](https://github.com/f3rno/http-server-md-lib/compare/v1.0.4...v1.0.5) (2020-07-04)
 
 
