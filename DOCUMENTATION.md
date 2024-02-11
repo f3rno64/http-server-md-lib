@@ -125,15 +125,7 @@ Create a new [PathDoesNotExistError](#PathDoesNotExistError) object.
 
 **Example**  
 ```js
-const err = new PathDoesNotExistError('/some/path')
-
-console.log(`non-existent path: ${err.path}`)
-console.log(`non-existent path parts: ${err.parts}`)
-console.log(`non-existent path dir name: ${err.dirname}`)
-console.log(`non-existent path base name: ${err.basename}`)
-console.log(`non-existent path extension: ${err.extname}`)
-
-console.error(err.stack)
+throw new PathDoesNotExist('/some/path')
 ```
 <a name="PathDoesNotExistError+path"></a>
 
@@ -167,7 +159,7 @@ Get the original FS error object.
 <a name="PathDoesNotExistError.message"></a>
 
 ### PathDoesNotExistError.message(path, [fsError], [color]) ⇒ <code>string</code>
-Generate a messsage for [PathDoesNotExistError](#PathDoesNotExistError).
+Generate a message for [PathDoesNotExistError](#PathDoesNotExistError).
 
 **Kind**: static method of [<code>PathDoesNotExistError</code>](#PathDoesNotExistError)  
 **Returns**: <code>string</code> - message - error message  
