@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/f3rno64/http-server-md-lib/compare/v1.1.1...v1.1.2) (2024-02-11)
+
+
+### Bug Fixes
+
+* use pnpm in manifest husky pre-commit hook ([80d475f](https://github.com/f3rno64/http-server-md-lib/commit/80d475fdd188245ff1263b63b420f7b1e0b02f92))
+
 ### [1.1.1](https://github.com/f3rno64/http-server-md-lib/compare/v1.1.0...v1.1.1) (2024-02-11)
 
 

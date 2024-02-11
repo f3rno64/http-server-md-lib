@@ -1,6 +1,6 @@
 {
   "name": "http-server-md-lib",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "license": "MIT",
   "description": "Shared utility library for http-server-md",
   "author": "Cris Mihalache <f3rno64@gmail.com>",
